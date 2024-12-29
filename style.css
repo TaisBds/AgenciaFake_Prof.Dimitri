@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.navbar{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-grow: row wrap;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    background: white;
+   box-shadow: 4px 4px 12px rgb(68, 68, 184);
+ 
+}
+    
+.logo{
+    text-align: left;
+    flex: 20%;
+    margin-left: 10%;
+
+    
+}
+.logo h1{
+    font-family: "lobest", cursive;
+    color:rgb(151, 6, 96);
+    font-size: 34px;
+}
+.menu{
+    text-align: right;
+    flex: 70%;
+    padding: 2opx;
+}
+.menu a {
+    color:rgb(68, 68, 184) ;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+    }
+    .menu a:hover{
+        color: rgb(151, 6, 96);
+        border-top: 4px solidrgb(68, 68, 184) ;
+    }
+    #botao{
+        background-color:rgb(68, 68, 184);
+        padding: 10px 25px;
+        color: white;
+        border-radius: 5px;
+        margin-right: 10%;
+        margin-left: 5%;
+       
+       
+}
+#botao:hover{
+    border: none;
+    background:rgb(151, 6, 96) ;
+}
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+  
+   
+   
+
+}
+.headerline{
+    flex: 40%;
+    margin-left: 10%;
+    margin-bottom: 8%;
+    margin-top: 8%;
+}
+
+.headerline h2{
+    font-weight: 900;
+    font-size: 20px;
+    color: rgb(68, 68, 184);
+    padding: 0;
+    margin: 0;
+}
+.headerline p{
+    color: rgb(24, 23, 23);
+   text-align: center;
+  
+
+}
+.contbtn{
+   display: inline-block;
+    background:rgb(68, 68, 184) ;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 40%;
+    letter-spacing: 2px;
+    
+    
+}
+.contbtn:hover{
+    background: rgb(151, 6, 96);
+}
+.img{
+    margin-right: 10%;
+    flex: 40%;
+    text-align: center;
+   
+}
+section{
+ display: inline-block; 
+ margin-top: 1%;
+ margin-left: 5%;
+ margin-right: 5%;
+ text-align: center;
+ padding: 5%;
+ 
+}
+section h2{
+    width: 100%;
+    font-size: 50px;
+    margin:0;
+    font-family: "lobest", cursive ;
+    font-weight: bold;
+    color: rgb(68, 68, 184);
+    }
+    .servicos{
+        display: inline-block;
+        margin-top: 5%;
+
+    }
+    .card{
+        display: inline-block;
+        width: 30%;
+        padding: 20px; 
+        margin: 1%;
+        border: 1px solid rgb(151, 6, 96); 
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .card:hover{
+        background:rgb(151, 6, 96) ;
+        color: white;
+        padding: 40px;
+    }
+    .card:hover .cardtest{
+        display: none;
+    }
+    .card:hover .textoculto{
+        display: block;
+    }
+    
+    .textoculto{
+        display: none;
+    }
+    footer{
+        margin-top: 100PX;
+        height: 400px;
+       background: rgb(151, 6, 96);
+       text-align: center;
+       border-top: 5px solid rgb(68, 68, 184);
+    }
+    .logorodape{
+        padding: 100px;
+        
+    }
+    .Agencia{
+    font-family: "lobest", cursive;
+    color:white;
+    font-size: 34px;
+
+    }
+    .icon{
+        position: fixed;
+        bottom: 5px;
+        right: 5px;
+       
+    }
